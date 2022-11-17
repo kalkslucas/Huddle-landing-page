@@ -1,0 +1,236 @@
+@media (max-width: 319.98px) {
+    .foto {
+        display: flex;
+        justify-content: center;
+    }
+    .foto img {
+        width: 100%;
+    }
+    
+    body {
+        background-image: url(./images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .botoes {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .botoes button {
+        margin: 0 7px 0 7px
+    }
+    .textos {
+        margin-top: 150px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .textos h4 {
+        margin-bottom: 40px;
+    }
+    .textos p {
+        font-size: 20px;
+    }
+    .textos button {
+        margin-top: 40px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+    .foto {
+        display: flex;
+        justify-content: center;
+    }
+    .foto img {
+        width: 100%;
+    }
+    body {
+        background-image: url(./images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .botoes {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .botoes button {
+        margin: 0 7px 0 7px
+    }
+    .textos {
+        margin-top: 150px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .textos h4 {
+        margin-bottom: 40px;
+    }
+    .textos p {
+        font-size: 20px;
+    }
+    .textos button {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424.98px) {
+    .foto {
+        display: flex;
+        justify-content: center;
+    }
+    .foto img {
+        width: 100%;
+    }
+    body {
+        background-image: url(./images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .botoes {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .botoes button {
+        margin: 0 7px 0 7px
+    }
+    .textos {
+        margin-top: 150px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .textos h4 {
+        margin-bottom: 40px;
+    }
+    .textos p {
+        font-size: 20px;
+    }
+    .textos button {
+        margin-top: 40px;
+    }
+}
+
+
+
+
+/*Extra small devices (portrait phones, menor que 576px)*/
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .foto {
+        display: flex;
+        justify-content: center;
+    }
+    .foto img {
+        width: 100%;
+    }
+    body {
+        background-image: url(./images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .botoes {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .botoes button {
+        margin: 0 7px 0 7px
+    }
+    .textos {
+        margin-top: 150px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .textos h4 {
+        margin-bottom: 40px;
+    }
+    .textos p {
+        font-size: 20px;
+    }
+    .textos button {
+        margin-top: 40px;
+    }
+}
+
+/*Small devices (landscape phones, 576px e maiores)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .foto {
+        display: flex;
+        justify-content: center;
+    }
+    .foto img {
+        width: 100%;
+    }
+    body {
+        background-image: url(./images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+    }
+    .botoes {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .botoes button {
+        margin: 0 7px 0 7px
+    }
+    .textos {
+        margin-top: 150px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .textos h4 {
+        margin-bottom: 40px;
+    }
+    .textos p {
+        font-size: 20px;
+    }
+    .textos button {
+        margin-top: 40px;
+    }
+}
+
+/*Medium devices (tablets, 768px e maiores)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .foto img{
+        width: 100%;
+    }
+    .botoes {
+        display: flex;
+        justify-content: end;
+    }
+    .botoes button {
+        margin: 0 7px 0 7px
+    }
+}
+
+/*Large devices (desktops, 992px e maiores)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .foto img{
+        width: 100%;
+    }
+    .botoes {
+        display: flex;
+        justify-content: end;
+    }
+    .botoes button {
+        margin: 0 7px 0 7px
+    }
+    .textos h4 {
+        font-size: 40px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px  e maiores)*/
+@media (min-width: 1200px) {
+    .foto img{
+        width: 92%;
+    }
+    .botoes {
+        display: flex;
+        justify-content: end;
+    }
+    .botoes button {
+        margin: 0 7px 0 7px
+    }
+}

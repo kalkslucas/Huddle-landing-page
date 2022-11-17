@@ -1,0 +1,70 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 18px;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+}
+
+.botao-principal{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+}
+
+.botao-principal:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.botao-principal.btn {
+    --bs-btn-border-radius: 2.5rem;
+    --bs-btn-border-width: 0
+}
+
+.botao-rodape {
+    border: 1px solid white;
+    color: white;
+}
+
+.botao-rodape:hover {
+    border: 1px solid hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
+
+
+
+/*
+@media (min-width: 1200px) {
+    .foto{
+        width: 600px;
+    }
+}
+
+@media (min-width: 800px) {
+    .foto {
+        width: 500px;
+    }
+}
+
+@
+
+@media (max-width: 576px){
+    .foto{
+        width: 300px;
+    }
+    body{
+        background-image: url(./images/bg-mobile.svg);
+    }
+}
+*/

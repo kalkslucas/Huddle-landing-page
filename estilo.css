@@ -25,6 +25,7 @@ h4 {
 .botao-principal:hover{
     background-color: hsl(300, 69%, 71%);
     color: white;
+    cursor: pointer;
 }
 
 .botao-principal.btn {
